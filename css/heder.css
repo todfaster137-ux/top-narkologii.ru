@@ -1,0 +1,75 @@
+  /* Шапка */
+      .header {
+        background: #fff;
+        border-bottom: 1px solid var(--border-color);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+      }
+      .header__wrapper {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header__container {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+      }
+      .header__city-button {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: #eff6ff;
+        border: 1px solid #bfdbfe;
+        padding: 6px 12px;
+        border-radius: 20px;
+        color: var(--primary-color);
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: 500;
+      }
+      .header__menu {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+      .header__links-list {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+      }
+      .header__links-list a {
+        color: var(--text-dark);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 500;
+      }
+      .header__links-list a:hover {
+        color: var(--primary-color);
+      }
+      .primary-button {
+        background: var(--primary-color);
+        color: white;
+        padding: 10px 20px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        display: inline-block;
+        transition: background 0.2s;
+      }
+      .primary-button:hover {
+        background: var(--primary-hover);
+      }
