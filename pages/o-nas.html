@@ -19,28 +19,23 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" itemscope itemtype="https://schema.org/WPHeader">
         <div class="header__wrapper">
             <div class="header__container">
-                <a class="header__logo logo" href="../index.html">
-                    <span class="logo__text"
-                        style="font-weight: 800; text-transform: uppercase; color: #3b82f6; font-size: 22px;">Лучшие
-                        Клиники</span>
+                <a href="https://top-narkologii.ru/" class="logo" itemprop="url">
+                    <span style="font-size: 24px;">🏥</span>
+                    <strong style="font-size: 18px; color: #0f172a;" itemprop="name">top-narkologii.ru</strong>
                 </a>
-                <button class="header__city-button city__button">
-                    <span>📍 Россия</span>
-                </button>
-            </div>
-            <div class="header__menu">
-                <nav class="header__links">
-                    <ul class="header__links-list">
-                        <li><a href="./kak-vibrat-kliniky.html">Как выбрать клинику</a></li>
-                        <li><a href="./o-nas.html">О проекте</a></li>
-                        <li><a href="./contacts.html">Обратная связь</a></li>
-                    </ul>
-                </nav>
 
             </div>
+            <nav class="header__menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                <ul class="header__links-list">
+                    <li><a href="./pages/kak-vibrat-kliniky.html">Как выбрать клинику</a></li>
+                    <li><a href="./pages/o-nas.html">О проекте</a></li>
+                    <li><a href="./pages/contacts.html">Обратная связь</a></li>
+                </ul>
+            </nav>
+
         </div>
     </header>
 
